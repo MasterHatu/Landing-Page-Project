@@ -4,7 +4,7 @@
 }
 
 body {
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -14,21 +14,38 @@ header {
 	flex: 0;
 	display: flex;
 	justify-content: space-between;
-	padding: 10px;
+	align-items: center;
+	background-color: #1F2937;
+	color: #ffffff;
+	padding: 10px 100px;
+}
+
+header a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #e5e7eb;
 }
 
 .logo {
-	flex: 0 0 100px;
+	flex: 0 0 150px;
+	color: #f9faf8;
+	font-size: 24px;
 }
 
 .links {
 	flex: 1;
 	display: flex;
 	justify-content: flex-end;
-	gap: 10px;
+	gap: 20px;
+}
+
+.page {
+	padding: 10px 100px;
 }
 
 footer {
 	flex: 0;
+	background-color: #1F2937;
+	color: #ffffff;
 	text-align: center;
 }
