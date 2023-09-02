@@ -11,13 +11,13 @@ body {
 }
 
 header {
-	flex: 0;
+	flex: 0 0 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #1F2937;
 	color: #ffffff;
-	padding: 10px 100px;
+	padding: 10px;
 }
 
 header a {
@@ -33,18 +33,31 @@ header a {
 }
 
 .links {
-	flex: 1;
+	flex: 1 0 400px;
 	display: flex;
 	justify-content: flex-end;
 	gap: 20px;
 }
 
+.margin {
+	flex: 0 10 100px;
+}
+
 .page {
-	padding: 10px 100px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.content {
+	flex: 1;
 }
 
 footer {
-	flex: 0;
+	flex: 0 0 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #1F2937;
 	color: #ffffff;
 	text-align: center;
