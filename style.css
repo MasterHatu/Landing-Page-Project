@@ -55,21 +55,20 @@ header a {
 	flex-direction: column;
 }
 
-.section1 {
-	flex: 1;
+.section1, .section2, .section3, .section4 {
+	flex: 1 0 200px;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.section2 {
-	flex: 1;
+.section2, .section3 {
+	flex-direction: column;
 }
 
-.section3 {
-	flex: 1;
-}
-
-.section4 {
-	flex: 1;
+.attention {
+	display: flex;
+	background-color: #3882f6;
 }
 
 footer {
