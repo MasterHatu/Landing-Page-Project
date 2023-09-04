@@ -44,14 +44,7 @@ header a {
 	gap: 20px;
 }
 
-.page {
-	display: flex;
-	justify-content: space-between;
-	padding: 10px;
-}
-
 .content {
-	flex: 1;
 	display: flex;
 	flex-direction: column;
 }
@@ -61,6 +54,18 @@ header a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.section1 {
+	background-color: #1F2937;
+}
+
+.text, .image {
+	width: 50%;
+}
+
+.text {
+	padding: 25px;
 }
 
 .section2, .section3 {
