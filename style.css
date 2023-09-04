@@ -26,6 +26,10 @@ header a {
 	color: #e5e7eb;
 }
 
+.margin {
+	flex: 0 10 100px;
+}
+
 .logo {
 	flex: 0 0 150px;
 	color: #f9faf8;
@@ -39,10 +43,6 @@ header a {
 	gap: 20px;
 }
 
-.margin {
-	flex: 0 10 100px;
-}
-
 .page {
 	display: flex;
 	justify-content: space-between;
@@ -50,6 +50,25 @@ header a {
 }
 
 .content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.section1 {
+	flex: 1;
+	display: flex;
+}
+
+.section2 {
+	flex: 1;
+}
+
+.section3 {
+	flex: 1;
+}
+
+.section4 {
 	flex: 1;
 }
 
