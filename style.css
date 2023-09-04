@@ -51,7 +51,7 @@ header a {
 }
 
 .section1, .section2, .section3, .section4 {
-	flex: 1 0 300px;
+	flex: 1 0 400px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -100,6 +100,12 @@ button {
 	align-items: center;
 }
 
+.section2 .content,
+.section3 .content {
+	flex-direction: column;
+	justify-content: center;
+}
+
 .section2organizer {
 	display: flex;
 }
@@ -121,6 +127,25 @@ button {
 	border-radius: 15px;
 	height: 140px;
 	width: 140px;
+}
+
+.section3 {
+	background-color: #e5e7eb;
+}
+
+.quote {
+	max-width: 70%;
+	color: #1F2937;
+	font-size: 36px;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.citation {
+	max-width: 70%;
+	font-weight: 700;
+	align-self: flex-end;
+	margin-right: 100px;
 }
 
 .attention {
